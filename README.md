@@ -9,5 +9,5 @@ Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas
 # Ilustração
 ![image](https://user-images.githubusercontent.com/73988556/178170568-9fe2cb48-b413-4a72-94bc-cfb8f9ece20b.png)
 
-Obs: para esse pequeno projeto, foi utilizado a IDE IntelliJ e o OpenJDK-17
+Obs: para esse pequeno projeto, foi utilizado a IDE IntelliJ e o OpenJDK-17<br>
 Obs2: talvez seja necessário mudar o nome do container do SQL Server no script shell
