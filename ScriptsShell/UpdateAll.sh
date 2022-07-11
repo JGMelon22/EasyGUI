@@ -1,0 +1,1 @@
+echo Updating apt and flatpak, please wait... && sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean && flatpak update -y && flatpak uninstall --unused -y && echo Way to go! 
