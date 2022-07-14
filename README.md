@@ -7,9 +7,10 @@ Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas
 - Compile e rode.
 
 # Ilustração
-![image](https://user-images.githubusercontent.com/73988556/178170568-9fe2cb48-b413-4a72-94bc-cfb8f9ece20b.png)
 
-# Depedencias
+![Screenshot from 2022-07-13 22-00-50](https://user-images.githubusercontent.com/73988556/178863942-e23bd91c-33de-4df1-9d86-2379b46e922e.png)
+
+# Dependências
 - Java 17;
 - Mover os scripts shell disponibilizados para a /home da distro em uso.
 
