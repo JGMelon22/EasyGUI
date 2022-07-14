@@ -8,7 +8,7 @@ public class StartStopMSSQL {
         String userPath = System.getenv("HOME");
 
         // -- Linux --
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/.StartDocker.sh"}; //
+        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/StartDocker.sh"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 
@@ -26,7 +26,7 @@ public class StartStopMSSQL {
         String userPath = System.getenv("HOME");
 
         // -- Linux --
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/.StopDocker.sh"};
+        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/StopDocker.sh"};
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 

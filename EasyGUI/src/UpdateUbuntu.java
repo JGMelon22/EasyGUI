@@ -7,7 +7,7 @@ public class UpdateUbuntu {
         String userPath = System.getenv("HOME");
 
         // -- Linux --
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/.UpdateAll.sh"}; //
+        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/UpdateAll.sh"}; //
 
         System.out.println(cmd);
 

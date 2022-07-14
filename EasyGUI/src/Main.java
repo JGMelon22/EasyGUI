@@ -7,7 +7,7 @@ public class Main {
         Jframe.setContentPane(new MainForm().panel1);
         Jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Jframe.setSize(250, 270);
-        Jframe.setLocationRcelativeTo(null);
+        Jframe.setLocationRelativeTo(null);
         Jframe.setVisible(true);
     }
 }
