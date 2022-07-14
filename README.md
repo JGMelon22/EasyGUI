@@ -11,7 +11,8 @@ Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas
 
 # Dependências
 - Java 17;
-- Mover os scripts shell disponibilizados para a /home da distro em uso.
+- Mover os scripts shell disponibilizados para a /home da distro em uso;
+- GNOME Terminal (temporário).
 
 Obs: para esse pequeno projeto, foi utilizado a IDE IntelliJ e o OpenJDK-17<br>
 Obs2: talvez seja necessário mudar o nome do container do SQL Server no script shell
