@@ -1,13 +1,14 @@
 import java.io.IOException;
 
-public class UpdateUbuntu {
-    public void UpdateSystem() {
+public class CorrigirPackageManagers {
+
+    public void CorrigirPacotes() {
 
         // /home de forma universal
         String userPath = System.getenv("HOME");
 
         // -- Linux --
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/.UpdateAll.sh"}; //
+        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/.FixAptFlatpak.sh"}; //
 
         System.out.println(cmd);
 
