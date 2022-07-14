@@ -9,8 +9,6 @@ public class UpdateUbuntu {
         // -- Linux --
         String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/UpdateAll.sh"}; //
 
-        System.out.println(cmd);
-
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 
         try {

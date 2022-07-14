@@ -10,8 +10,6 @@ public class CorrigirPackageManagers {
         // -- Linux --
         String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/FixAptFlatpak.sh"}; //
 
-        System.out.println(cmd);
-
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 
         try {
