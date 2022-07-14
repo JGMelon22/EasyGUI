@@ -1,5 +1,5 @@
 # Easy GUI
-Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas com base Ubuntu (APT + Flatpak), corrigir possíveis problemas com o APT e Flatpak, e iniciar o SQL Server via Docker.
+Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas com base Ubuntu (APT + Flatpak), corrigir possíveis problemas com o APT e Flatpak, e iniciar/parar o SQL Server via Docker.
 
 # Como usar?
 - Baixe os scripts shell disponibilizados e os dê permissão de execução;
