@@ -3,8 +3,7 @@ Uma simples interface gráfica usando JFrame com o intuito de atualizar sistemas
 
 # Como usar?
 - Baixe os scripts shell disponibilizados e os dê permissão de execução;
-- Nas classes _StartStopMSSQL_ e _UpdateUbuntu_, aponte para o diretório onde foi posto os scripts;
-- Compile e rode.
+- Por fim, execute o .jar disponibilizado.
 
 # Ilustração
 
