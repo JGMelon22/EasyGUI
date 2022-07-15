@@ -9,5 +9,6 @@ public class Main {
         Jframe.setSize(250, 270);
         Jframe.setLocationRelativeTo(null);
         Jframe.setVisible(true);
+        Jframe.setResizable(false);
     }
 }

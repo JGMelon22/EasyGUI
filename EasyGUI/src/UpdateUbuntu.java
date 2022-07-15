@@ -7,6 +7,7 @@ public class UpdateUbuntu {
         String userPath = System.getenv("HOME");
 
         // -- Linux --
+        // String[] cmd = new String[]{"sh", "-c", userPath + "/master.sh"}; // Universal
         String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/UpdateAll.sh"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
