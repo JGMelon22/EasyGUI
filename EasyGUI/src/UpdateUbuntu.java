@@ -8,7 +8,7 @@ public class UpdateUbuntu {
 
         // -- Linux --
         // String[] cmd = new String[]{"sh", "-c", userPath + "/master.sh"}; // Universal
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/UpdateAll.sh"}; //
+        String[] cmd = new String[]{"x-terminal-emulator", "-e", userPath + "/UpdateAll.sh"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 

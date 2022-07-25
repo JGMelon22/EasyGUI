@@ -8,7 +8,7 @@ public class CorrigirPackageManagers {
         String userPath = System.getenv("HOME");
 
         // -- Linux --
-        String[] cmd = new String[]{"gnome-terminal", "-e", userPath + "/FixAptFlatpak.sh"}; //
+        String[] cmd = new String[]{"x-terminal-emulator", "-e", userPath + "/FixAptFlatpak.sh"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 

@@ -12,7 +12,7 @@ public class ChecarScripts {
     // Verifica conteúdo do sScript de atualização
     public static void VerificaScriptUm() {
         try {
-            File scriptsFile = new File(userPath + "/.UpdateAll.sh");
+            File scriptsFile = new File(userPath + "/UpdateAll.sh");
             Scanner readScript = new Scanner(scriptsFile);
 
             while (readScript.hasNextLine()) {
@@ -30,7 +30,7 @@ public class ChecarScripts {
     // Verifica o conteúdo do script de correção do APT + Flatpak
     public static void VerificaScriptDois() {
         try {
-            File scriptsFile = new File(userPath + "/.FixAptFlatpak.sh");
+            File scriptsFile = new File(userPath + "/FixAptFlatpak.sh");
             Scanner readScript = new Scanner(scriptsFile);
 
             while (readScript.hasNextLine()) {
@@ -48,7 +48,7 @@ public class ChecarScripts {
     // Verifica o conteúdo do script de inicialização Docker + MSSQL
     public static void VerificaScriptTres() {
         try {
-            File scriptsFile = new File(userPath + "/.StartDocker.sh");
+            File scriptsFile = new File(userPath + "/StartDocker.sh");
             Scanner readScript = new Scanner(scriptsFile);
 
             while (readScript.hasNextLine()) {
@@ -66,7 +66,7 @@ public class ChecarScripts {
     // Verifica o conteúdo do script de desligamento do MSSQL + Docker
     public static void VerificaScriptQuatro() {
         try {
-            File scriptsFile = new File(userPath + "/.StopDocker.sh");
+            File scriptsFile = new File(userPath + "/StopDocker.sh");
             Scanner readScript = new Scanner(scriptsFile);
 
             while (readScript.hasNextLine()) {
