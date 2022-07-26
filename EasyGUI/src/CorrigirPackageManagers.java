@@ -4,11 +4,8 @@ public class CorrigirPackageManagers {
 
     public void CorrigirPacotes() {
 
-        // /home de forma universal
-        String userPath = System.getenv("HOME");
-
         // -- Linux --
-        String[] cmd = new String[]{"x-terminal-emulator", "-e", userPath + "/FixAptFlatpak.sh"}; //
+        String[] cmd = new String[]{"x-terminal-emulator", "-e", "echo Corrigindo possíveis problemas com pacotes do APT e/ou Flatpak... && sudo dpkg --configure -a && sudo flatpak repair"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 

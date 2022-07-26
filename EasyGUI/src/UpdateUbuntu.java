@@ -8,7 +8,7 @@ public class UpdateUbuntu {
 
         // -- Linux --
         // String[] cmd = new String[]{"sh", "-c", userPath + "/master.sh"}; // Universal
-        String[] cmd = new String[]{"x-terminal-emulator", "-e", userPath + "/UpdateAll.sh"}; //
+        String[] cmd = new String[]{"x-terminal-emulator", "-e", "echo \"Atualizando APT e Flatpak, por favor aguarde...\" && sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean && flatpak update -y && flatpak uninstall --unused -y"}; //
 
         ProcessBuilder processBuilder = new ProcessBuilder(cmd);
 
